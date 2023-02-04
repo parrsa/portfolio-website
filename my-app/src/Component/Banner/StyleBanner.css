@@ -1,0 +1,35 @@
+.word {
+    margin: auto;
+    color: black;
+	font-size: 2em;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+  }
+
+.bubble {
+
+	animation: move 3s linear infinite alternate;
+}
+
+.bubble:nth-child(1) {
+	top: -20px;
+	left: -20px;
+}
+
+
+@keyframes move {
+	0% {
+		border-radius: 75% 25% 20% 80% / 34% 47% 53% 66%;
+		transform: translate(70px, 50px);
+	}
+
+	50% {
+		border-radius: none;
+		transform: translate(70px, 20px);
+	}
+
+	100% {
+		transform: translate(60px, 110px);
+	}
+}

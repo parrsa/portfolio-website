@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @font-face {
+    font-family: "Yekan";
+    src: url("./Font/Yekan.ttf");
+  }
+  
+  @font-face {
+    font-family: "Titr";
+    src: url("./Font/BTitr.ttf");
+  }
+
+  @font-face {
+    font-family: "Bzar";
+    src: url("./Font/BZar.ttf");
+  }
+
+  @font-face {
+    font-family: "BzarBold";
+    src: url("./Font/BZarBold.ttf");
+  }*/
+   @font-face {
+    font-family: "Gettmorg";
+    src: url("./Font/krinkes/KrinkesDecorPERSONAL.ttf");
+  } 
+  @font-face {
+    font-family: "Names";
+    src: url("./Font/Restonasi.otf");
+  }
+
+  * {
+    scrollbar-width: 2px;
+    scrollbar-color: white;
+  }
+  
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #ffffff; 
+    border-radius: 10px;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color:#d7d7d7;
+    border-radius: 10px;
+    /* border: 1px solid white ; */
+  }

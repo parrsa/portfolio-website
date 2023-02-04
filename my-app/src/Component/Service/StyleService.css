@@ -1,0 +1,9 @@
+.box{
+    width: 250px;
+    height: 200px;
+    background-color: aqua;
+    margin: 10px;
+    border-radius: 1rem;
+        /* transform: translateX(-100px); */
+        /* transition: cubic-bezier(1, 0, 0, 1); */
+}
