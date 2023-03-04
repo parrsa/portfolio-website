@@ -9,7 +9,7 @@ const Service = () => {
     const [ShowModal1, SetModal1] = useState(false)
     const [ShowModal2, SetModal2] = useState(false)
     return (
-        <div className='w-full font-Montserrat h-screen md:h-fit sm:h-fit  overflow-hidden sm:overflow-hidden bg-white'>
+        <div className='w-full font-Montserrat h-fit sm:h-fit  overflow-hidden sm:overflow-hidden bg-white'>
             <div className='flex justify-center sm:items-center mt-10' >
                 <h1 className=' text-3xl font-bold leading-[4rem] text-center text-black'>
                     Service
@@ -17,7 +17,7 @@ const Service = () => {
                 <p className='absolute mt-12 sm:mt-14 font-bold text-slate-600'>what i offer</p>
             </div>
             <div className='flex justify-around  items-center mt-14 relative  b w-full sm:w-full sm:ml-0  h-fit '>
-                <div className='grid grid-cols-3 md:grid-cols-2 md:gap-5  row-span-2'>
+                <div className='grid grid-cols-3 md:grid-cols-2 md:gap-5   row-span-2'>
 
                     <div  className='w-[330px] sm:w-[330px] flex justify-start  border-2  sm:ml-0  col-span-1 sm:col-span-3 mr-5  sm:mr-0  rounded-2xl h-[330px]'>
                         <div className='ml-5 mt-2  ' >
@@ -37,7 +37,8 @@ const Service = () => {
                             ShowModal ? (<>
                                 <div className="flex transition-all overflow-hidden justify-center items-center overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
                                     <div className="relative w-screen h-[80%] overflow-hidden flex justify-center items-center bg-opacity-20 backdrop-blur-sm rounded drop-shadow-lg outline-none focus:outline-none my-6 ">
-                                        <div className='w-[30%] md:w-[60%] sm:w-full overflow-hidden rounded-xl h-[450px] flex justify-center  bg-slate-50'>
+
+                                        <div className='w-[30%] sm:w-full overflow-hidden rounded-xl h-[450px] flex justify-center  bg-slate-50'>
                                             <div className='flex justify-end w-full  '>
                                                 <img onClick={() => SetModal(!ShowModal)} src={ImageClose} className="mt-5 transition-all hover:cursor-pointer mr-5 w-5 h-5" />
                                             </div>
@@ -83,7 +84,7 @@ const Service = () => {
                                 <div className="flex transition-all overflow-hidden justify-center items-center overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
                                     <div className="relative w-screen h-[80%] flex justify-center items-center bg-opacity-20 backdrop-blur-sm rounded drop-shadow-lg outline-none focus:outline-none my-6 ">
 
-                                        <div className='w-[30%] md:w-[60%] sm:w-full rounded-xl h-[450px] flex justify-center  bg-slate-50'>
+                                        <div className='w-[30%] sm:w-full rounded-xl h-[450px] flex justify-center  bg-slate-50'>
                                             <div className='flex justify-end w-full '>
                                                 <img onClick={() => SetModal1(!ShowModal1)} src={ImageClose} className="mt-5 transition-all hover:cursor-pointer mr-5 w-5 h-5" />
                                             </div>
@@ -128,7 +129,7 @@ const Service = () => {
                                 <div className="flex transition-all overflow-hidden justify-center items-center overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
                                     <div className="relative w-screen h-[80%] flex justify-center items-center bg-opacity-20 backdrop-blur-sm rounded drop-shadow-lg outline-none focus:outline-none my-6 ">
 
-                                        <div className='w-[30%] md:w-[60%] sm:w-full rounded-xl h-[450px] flex justify-center  bg-slate-50'>
+                                        <div className='w-[30%] sm:w-full rounded-xl h-[450px] flex justify-center  bg-slate-50'>
                                             <div className='flex justify-end w-full '>
                                                 <img onClick={() => SetModal2(!ShowModal2)} src={ImageClose} className="mt-5 transition-all hover:cursor-pointer mr-5 w-5 h-5" />
                                             </div>

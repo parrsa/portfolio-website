@@ -29,6 +29,10 @@
     font-family: "Names";
     src: url("./Font/Restonasi.otf");
   }
+  @font-face {
+    font-family: "Montserrat";
+    src: url("./Font/Montserrat/Montserrat-VariableFont_wght.ttf");
+  }
 
   * {
     scrollbar-width: 2px;
